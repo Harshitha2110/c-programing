@@ -9,7 +9,7 @@ temp=n;
 while(n!=0)
 {
 temp=temp/10;
-r=r+r^3;
+r=r+n^3;
 temp/=10;
 }
 if(n==r)
